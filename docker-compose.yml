@@ -32,7 +32,7 @@ services: # ahora se indican los servicios por el orden en que se quiere que se 
     ports:
       - "8080:8080"
   web:
-    image: tusuarioDocker/p2gps:web
+    image: alexgc04/p2gps:web
     deploy:
       replicas: 1
       resources:
